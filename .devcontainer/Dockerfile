@@ -17,6 +17,6 @@ RUN if [ "${REINSTALL_CMAKE_VERSION_FROM_SOURCE}" != "none" ]; then \
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
-COPY ./booster.sh /tmp/
+# COPY ./booster.sh /tmp/
 
-RUN chmod +x /tmp/booster.sh && /tmp/booster.sh && rm /tmp/booster.sh
+# RUN chmod +x /tmp/booster.sh && /tmp/booster.sh && rm /tmp/booster.sh
