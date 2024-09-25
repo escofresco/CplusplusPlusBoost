@@ -38,5 +38,5 @@
 	// "remoteUser": "root"
 
 	// Customize instance name as "Cpp-hash"
-	"runArgs": ["--name", "app"]
+	// "runArgs": ["--name", "app"]
 }
